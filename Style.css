@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: gray;
+}
+
+/*navigation bar*/
+#navbar {  
+  background-color: rgb(160, 135, 153);
+  display: flex;
+  align-items: center;
+}
+#navbar #logo{
+  margin: 3px;
+  padding: 3px;
+  border-radius: 50px;
+}
+#navbar #myh1{
+  flex: 3;
+  color: white;
+  margin-left: 5px;
+  text-shadow: 5px 5px 4px blue;
+  font-family: 'Balthazar', serif;
+}
+#navbar1{
+  flex: 1;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+}
+#navbar1 li {
+  list-style: none;
+}
+#navbar1 li a {
+  margin: 0px 5px;
+  color: white;
+  list-style: none;
+  padding : 3px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#navbar1 li a:hover{
+  color: black;
+  background-color: white;
+}
+
+/*title section*/
+#home{
+  background-image: url(fast-food1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  padding-top: 150px;
+}
+#home h1{
+  font-size: 60px;
+  color: black;
+  text-shadow: 5px 5px 2px blue;
+  font-family: 'Balthazar', serif;
+}
+#home h2{
+  font-size: 16px;
+  color: black;
+  font-family: 'Balthazar', serif;
+}
+#home #order{
+  background-color: brown;
+  width: 90px;
+  margin: 20px;
+  padding: 5px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 3px 4px blue;
+}
+
+/*service section*/
+.service-container > .myh1{
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  text-shadow: 5px 5px yellow;
+}
+.service-container{
+  background-color: beige;
+}
+#services{
+  display: flex;
+  margin: 5px;
+  border: 1px solid rgb(184, 131, 131);
+  flex-wrap: wrap;
+}
+#services .box{
+  text-align: center;
+  margin: 1% 2%;
+  padding: 15px;
+  border-radius: 20px;
+}
+#services .box .img{
+  width: 100%;
+}
+#services .box #clk{
+  width: 50px;
+  border-radius: 10px;
+  box-shadow: 3px 3px yellow;
+}
+
+/*contact section*/
+#contact-section{
+  text-align: center;
+}
+#contact-section{
+  text-shadow: 3px 3px brown;
+}
+#contact-section input{
+  width: 20%;
+  margin: 5px;
+  padding: 5px;
+}
+#contact-section div #btn{
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  width: 97px;
+}
