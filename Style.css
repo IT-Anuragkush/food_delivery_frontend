@@ -48,7 +48,7 @@ body{
 
 /*title section*/
 #home{
-  background-image: url(fast-food1.jpg);
+  background-image: url(image/fast-food.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -76,6 +76,10 @@ body{
   border-radius: 20px;
   box-shadow: 3px 4px blue;
 }
+#home #order:hover{
+  background-color: #333;
+  color: red;
+}
 
 /*service section*/
 .service-container > .myh1{
@@ -89,8 +93,9 @@ body{
 }
 #services{
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 5px;
-  border: 1px solid rgb(184, 131, 131);
   flex-wrap: wrap;
 }
 #services .box{
@@ -105,24 +110,28 @@ body{
 #services .box #clk{
   width: 50px;
   border-radius: 10px;
-  box-shadow: 3px 3px yellow;
+  box-shadow: 2px 2px yellow;
 }
 
 /*contact section*/
 #contact-section{
   text-align: center;
 }
-#contact-section{
-  text-shadow: 3px 3px brown;
+#contact-section h1{
+  text-shadow: 2px 2px brown;
 }
 #contact-section input{
   width: 20%;
-  margin: 5px;
+  margin: 10px;
   padding: 5px;
 }
-#contact-section div #btn{
+#contact-section .btn{
   background-color: blue;
   color: white;
   border-radius: 20px;
   width: 97px;
+}
+#contact-section .btn:hover{
+  background-color: #333;
+  color: red;
 }

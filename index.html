@@ -6,14 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>online food delivery</title>
   <link href="style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Libre+Bodoni:ital@1&display=swap"
-   rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap"
-   rel="stylesheet">
 </head>
 <body>
     <nav id="navbar">
-      <img id="logo" src="logo.jpg">
+      <img id="logo" src="image/logo.jpg">
       <h1 id="myh1">foodWay</h1>
       <ul id="navbar1">
         <li class="item1"><a href="index.html">Home</a></li>
@@ -33,25 +29,25 @@
       <h1 class="myh1">Our Service</h1>
       <div id="services">
         <div class="box">
-          <img src="noodals.png" alt="">
+          <img src="image/noodals.png" alt="noodals image">
           <h2 class="cl1" >food ordering</h2>
           <p>delicius and very testy</p>
           <input id="clk" type="button" value="click">
         </div>
         <div class="box">
-          <img src="bargar.png" alt="">
+          <img src="image/bargar.png" alt="">
           <h2 class="cl2" >food ordering</h2>
           <p>delicius and very testy</p>
           <input id="clk" type="button" value="click">
         </div>
         <div class="box">
-          <img src="pizza.png" alt="">
+          <img src="image/pizza.png" alt="">
           <h2 class="cl3" >food ordering</h2>
           <p>delicius and very testy</p>
           <input id="clk" type="button" value="click">
         </div>
         <div class="box">
-          <img src="bargar.png" alt="">
+          <img src="image/bread.png" alt="">
           <h2 class="cl4" >food ordering</h2>
           <p>delicius and very testy</p>
           <input id="clk" type="button" value="click">
@@ -61,14 +57,16 @@
 
     <section id="contact-section">
       <h1>Cantact Us</h1>
-      <input type="Name" value="Full-Name"><br>
-      <input type="email" value="xyz@gmail.com"><br>
-      <input type="location" value="Location"><br>
-      <input type="tel" value="Mobile number"><br>
-      <div>
-        <input id="btn" type="submit">
-        <input id="btn" type="reset">
-      </div>
+      <label for="fname">Enter full name</label>
+      <input type="fName" id="fname" placeholder="full name"><br>
+      <label for="email">Enter your Email</label>
+      <input type="email" id="email" placeholder="Enter Email"><br>
+      <label for="location">Enter location</label>
+      <input type="location" id="location" placeholder="Enter location"><br>
+      <label for="phone">Enter phone number</label>
+      <input type="tel" id="phone" placeholder="phone number"><br>
+      <input class="btn" type="submit">
+      <input class="btn" type="reset">
     </section>
 </body>
 </html>
